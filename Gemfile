@@ -3,6 +3,7 @@ gem 'bootstrap-sass'
 
 gem 'thin'
 gem 'rails'
+ gem 'puma'
 gem 'bcrypt'
 gem 'sass-rails',   '5.0.2'
 gem 'uglifier',     '2.5.3'
