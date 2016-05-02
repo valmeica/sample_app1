@@ -12,7 +12,7 @@ class User < ActiveRecord::Base
       has_secure_password
       validates :password, presence: true, length: { minimum: 6 }
 
-  class << self
+  #class << self
     
 # Returns the hash digest of the given string.
   def digest(string)
@@ -44,5 +44,5 @@ class User < ActiveRecord::Base
     update_attribute(:remember_digest, nil)
   end
 
-end
+#end
 end
